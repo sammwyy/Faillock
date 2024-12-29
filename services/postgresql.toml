@@ -1,0 +1,3 @@
+log_file = "/var/log/postgresql/postgresql-12-main.log"
+log_trigger = "FATAL:  password authentication failed for user"
+log_ip_regex = "(\\d+\\.\\d+\\.\\d+\\.\\d+)"

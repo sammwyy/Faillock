@@ -1,0 +1,3 @@
+log_file = "/var/log/mysqld.log"
+log_trigger = "Access denied for user"
+log_ip_regex = "(\\d+\\.\\d+\\.\\d+\\.\\d+)"

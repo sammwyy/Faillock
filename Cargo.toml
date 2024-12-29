@@ -1,0 +1,17 @@
+[package]
+name = "Faillock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+env_logger = "0.11.6"
+inotify = "0.11.0"
+log = "0.4.22"
+regex = "1.11.1"
+serde = "1.0.217"
+serde_derive = "1.0.217"
+toml = "0.8.19"
+
+[profile.release]
+target = "x86_64-unknown-linux-gnu"

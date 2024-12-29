@@ -1,0 +1,3 @@
+log_file = "/var/log/auth.log"
+log_trigger = "Failed password for"
+log_ip_regex = "(\\d+\\.\\d+\\.\\d+\\.\\d+)"
